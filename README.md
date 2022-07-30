@@ -21,7 +21,7 @@ Let's start to setup the env:
 ### Install the Node
 Download and install the NodeJs package here:
 
-<a href="https://nodejs.org/en/download/" target="_blank">Donwload Node</a>
+<a href="https://nodejs.org/en/download/">Donwload Node</a>
 
 ### Install Jest
 If you don't have Jest package installed, it's safe to make the installation before the next step.
@@ -37,3 +37,12 @@ Now, installa the other dependencies typing the command:
 `
 npm install
 `
+
+# Exercicies resolution comments
+
+I'll try to explain what I've tryed to deliver and the solution.
+
+
+
+## 1. Print whole number to the console.
+
