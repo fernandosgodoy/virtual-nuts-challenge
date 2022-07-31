@@ -30,5 +30,6 @@ function verifyConditionIsVisual(number) {
 module.exports = { 
     printSequentialResults,
     verifyConditionVisualNuts,
-    verifyConditionIsNuts
+    verifyConditionIsNuts,
+    verifyConditionIsVisual
 }

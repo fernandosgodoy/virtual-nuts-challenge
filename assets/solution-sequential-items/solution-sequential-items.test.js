@@ -1,4 +1,4 @@
-const { printSequentialResults, verifyConditionVisualNuts, verifyConditionIsNuts } = require("./solution-sequential-items");
+const { printSequentialResults, verifyConditionVisualNuts, verifyConditionIsNuts, verifyConditionIsVisual } = require("./solution-sequential-items");
 
 describe("Testing the conditions", () => {
 
@@ -9,13 +9,13 @@ describe("Testing the conditions", () => {
         ).toBe(iteractions);
     });
 
-    it("Passing Rule - All numbers divisible by both 5.", () => {    
+    it("Passing Rule - All numbers divisible by 5.", () => {    
         expect(
             verifyConditionIsNuts(5)
         ).toBe(true);
     });
 
-    it("Failing Rule - All numbers divisible by both 5.", () => {    
+    it("Failing Rule - All numbers divisible by 5.", () => {    
         expect(
             verifyConditionIsNuts(6)
         ).toBe(false);
@@ -30,6 +30,18 @@ describe("Testing the conditions", () => {
     it("Failing Rule - All numbers divisible by both (3 | 5).", () => {    
         expect(
             verifyConditionVisualNuts(4)
+        ).toBe(false);
+    });
+
+    it("Passing Rule - All numbers divisible by  3.", () => {    
+        expect(
+            verifyConditionIsVisual(30)
+        ).toBe(true);
+    });
+
+    it("Failing Rule - All numbers divisible by 3.", () => {    
+        expect(
+            verifyConditionIsVisual(4)
         ).toBe(false);
     });
  
