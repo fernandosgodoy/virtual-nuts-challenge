@@ -66,6 +66,13 @@ The 1st exercise, you can alter the number of iteractions in server.js file, lik
 
 ![image](https://user-images.githubusercontent.com/1747058/182039831-c42eefbb-6d89-4a7d-abf9-c002009378a8.png)
 
+The result of this exercise is below:
+
+![exercise01](https://user-images.githubusercontent.com/1747058/182040254-ccdc22fd-9e78-4cfc-ae64-e005c0d41e91.gif)
+
+with 500 or 'n' iteractions:
+
+![500-example](https://user-images.githubusercontent.com/1747058/182040372-f56f4fed-4760-48b1-a140-68c5b455b7a3.gif)
 
 ### How to keep the code safe from bugs or code changes?
 I think the unique approach to guarantee that your code will be safe in future changes is cover all the rules in unit tests.
@@ -76,4 +83,5 @@ First moment, the code will crash, of course, but running the unit tests in Jest
 
 The result of this exercise is below:
 
-[video]
+![exercise-02](https://user-images.githubusercontent.com/1747058/182040294-85c237a7-41c8-4705-929d-3f76e9ef2359.gif)
+
