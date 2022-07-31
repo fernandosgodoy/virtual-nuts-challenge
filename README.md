@@ -52,7 +52,8 @@ You can run the command below to run the Jest tests:
 npm test
 ` 
 
-[Video]
+![example-2](https://user-images.githubusercontent.com/1747058/182039763-011a34f8-e0aa-42d1-8659-35ad3d3839c7.gif)
+
 
 
 ## 1. Print whole number to the console.
