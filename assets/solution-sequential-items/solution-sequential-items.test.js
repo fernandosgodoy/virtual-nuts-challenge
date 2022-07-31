@@ -2,10 +2,11 @@ const { printSequentialResults, verifyConditionVisualNuts, verifyConditionIsNuts
 
 describe("Testing the conditions", () => {
 
-    it("Ensure that you have the function.", () => {    
+    it("Ensure that will make all iteractions.", () => {  
+        let iteractions = 100;  
         expect(
-            printSequentialResults()
-        ).toBeUndefined();
+            printSequentialResults(iteractions)
+        ).toBe(iteractions);
     });
 
     it("Passing Rule - All numbers divisible by both 5.", () => {    

@@ -1,6 +1,6 @@
-
 function printSequentialResults(numberOfIteractions) {
-        for (let i=1; i< numberOfIteractions; i++) {
+    let numberOfIteractionsTogo = 0;
+    for (let i=1; i <= numberOfIteractions; i++) {
         if (verifyConditionVisualNuts(i))
             console.log('Visual Nuts');
         else if (verifyConditionIsNuts(i))
@@ -9,7 +9,10 @@ function printSequentialResults(numberOfIteractions) {
             console.log('Visual');
         else 
             console.log(i);
+
+        numberOfIteractionsTogo = i;
     }
+    return numberOfIteractionsTogo;
 }
 
 function verifyConditionVisualNuts(number) {
