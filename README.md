@@ -32,7 +32,7 @@ npm install  -g jest
 `
 
 ### Install the dependecies
-Now, installa the other dependencies typing the command:
+Now, install the other dependencies typing the command:
 
 `
 npm install
@@ -41,7 +41,39 @@ npm install
 # Exercicies resolution comments
 
 I'll try to explain what I've tryed to deliver and the solution.
+If you want to call the methods in html page, you have this option in index.html page:
+
+[image]
+
+## Running the Unit tests in Jest
+You can run the command below to run the Jest tests:
+
+`
+npm test
+` 
+
+[Video]
+
 
 ## 1. Print whole number to the console.
 
+The 1st exercise, you can alter the number of iteractions in server.js file, like the code:
 
+`
+app.get('/exercise-01-solution-sequential-items', function (req, res) {
+  res.send(test1.printSequentialResults(100)); //alter here
+});
+`
+
+[image]
+
+### How to keep the code safe from bugs or code changes?
+I think the unique approach to guarantee that your code will be safe in future changes is cover all the rules in unit tests.
+Let's suppose that the rule "visual" change to number divided by 4. 
+First moment, the code will crash, of course, but running the unit tests in Jest, you'll see the fail and try to make this code run again with the new rules.
+
+## 2. Official languages spoken by countries
+
+The result of this exercise is below:
+
+[video]
