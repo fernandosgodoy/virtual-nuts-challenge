@@ -43,7 +43,7 @@ npm install
 I'll try to explain what I've tryed to deliver and the solution.
 If you want to call the methods in html page, you have this option in index.html page:
 
-[image]
+![example-01](https://user-images.githubusercontent.com/1747058/182039605-6428a28d-3101-42fd-a842-18e80aa09ecd.gif)
 
 ## Running the Unit tests in Jest
 You can run the command below to run the Jest tests:
