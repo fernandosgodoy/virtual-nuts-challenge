@@ -42,7 +42,6 @@ npm install
 
 I'll try to explain what I've tryed to deliver and the solution.
 
-
-
 ## 1. Print whole number to the console.
+
 

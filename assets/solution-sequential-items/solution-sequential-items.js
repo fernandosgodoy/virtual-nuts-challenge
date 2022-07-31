@@ -1,6 +1,6 @@
 
-function printSequentialResults() {
-        for (let i=1; i< 100; i++) {
+function printSequentialResults(numberOfIteractions) {
+        for (let i=1; i< numberOfIteractions; i++) {
         if (verifyConditionVisualNuts(i))
             console.log('Visual Nuts');
         else if (verifyConditionIsNuts(i))
@@ -29,9 +29,3 @@ module.exports = {
     verifyConditionVisualNuts,
     verifyConditionIsNuts
 }
-
-
-
-
-
-//printSequentialResults();

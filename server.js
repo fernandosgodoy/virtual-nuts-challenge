@@ -7,7 +7,7 @@ var test1 = require('./assets/solution-sequential-items/solution-sequential-item
 var test2 = require('./assets/kwowing-countries/knowing-countries');
 
 app.get('/exercise-01-solution-sequential-items', function (req, res) {
-  res.send(test1.printSequentialResults());
+  res.send(test1.printSequentialResults(100));
 });
 
 app.get('/exercise-02-knowing-countries', function (req, res) {
