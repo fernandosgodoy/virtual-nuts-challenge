@@ -61,9 +61,7 @@ npm test
 The 1st exercise, you can alter the number of iteractions in server.js file, like the code:
 
 `
-app.get('/exercise-01-solution-sequential-items', function (req, res) {
   res.send(test1.printSequentialResults(100)); //alter here
-});
 `
 
 [image]
