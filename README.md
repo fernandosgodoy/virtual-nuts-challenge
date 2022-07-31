@@ -64,7 +64,8 @@ The 1st exercise, you can alter the number of iteractions in server.js file, lik
   res.send(test1.printSequentialResults(100)); //alter here
 `
 
-[image]
+![image](https://user-images.githubusercontent.com/1747058/182039831-c42eefbb-6d89-4a7d-abf9-c002009378a8.png)
+
 
 ### How to keep the code safe from bugs or code changes?
 I think the unique approach to guarantee that your code will be safe in future changes is cover all the rules in unit tests.
