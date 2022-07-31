@@ -78,6 +78,7 @@ with 500 or 'n' iteractions:
 I think the unique approach to guarantee that your code will be safe in future changes is cover all the rules in unit tests.
 Let's suppose that the rule "visual" change to number divided by 4. 
 First moment, the code will crash, of course, but running the unit tests in Jest, you'll see the fail and try to make this code run again with the new rules.
+Using TDD technique, we'll try to make the changes in code and try to make test 'green' again.
 
 ## 2. Official languages spoken by countries
 
